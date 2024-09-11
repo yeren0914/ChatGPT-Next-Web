@@ -215,7 +215,7 @@ export function getHeaders() {
   };
 
   const clientConfig = getClientConfig();
-
+  //配置信息
   function getConfig() {
     const modelConfig = chatStore.currentSession().mask.modelConfig;
     const isGoogle = modelConfig.providerName == ServiceProvider.Google;
